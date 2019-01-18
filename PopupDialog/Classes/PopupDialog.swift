@@ -27,6 +27,7 @@ import Foundation
 import UIKit
 
 /// Creates a Popup dialog similar to UIAlertController
+@available(iOS 9.0, *)
 final public class PopupDialog: UIViewController {
 
     // MARK: Private / Internal
@@ -311,6 +312,7 @@ final public class PopupDialog: UIViewController {
 
 // MARK: - View proxy values
 
+@available(iOS 9.0, *)
 extension PopupDialog {
 
     /// The button alignment of the alert dialog
@@ -333,6 +335,7 @@ extension PopupDialog {
 
 // MARK: - Shake
 
+@available(iOS 9.0, *)
 extension PopupDialog {
     
     /// Performs a shake animation on the dialog

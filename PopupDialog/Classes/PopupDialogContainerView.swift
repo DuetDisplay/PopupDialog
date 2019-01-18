@@ -28,6 +28,7 @@ import Foundation
 import UIKit
 
 /// The main view of the popup dialog
+@available(iOS 9.0, *)
 final public class PopupDialogContainerView: UIView {
 
     // MARK: - Appearance
